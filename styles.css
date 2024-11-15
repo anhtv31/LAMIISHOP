@@ -1,0 +1,88 @@
+/* Định dạng chung */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Màu nền nhẹ nhàng */
+}
+
+header {
+    background-color: #f48fb1;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Danh sách sản phẩm */
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    width: 200px; /* Điều chỉnh độ rộng cho phù hợp */
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.product .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #d32f2f; /* Màu đỏ cho giá sản phẩm */
+    margin-top: 10px;
+}
+
+button {
+    background-color: #f48fb1;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Giỏ hàng */
+#cart {
+    margin-top: 20px;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+footer {
+    background-color: #f48fb1;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
